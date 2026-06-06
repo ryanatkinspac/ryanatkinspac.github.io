@@ -957,6 +957,10 @@
           <h3>Send an Inquiry</h3>
           <p>For case referrals, retainer agreements, or general questions.</p>
           <!-- This is a static HTML page — wire this form to Formspree, Netlify Forms, or similar -->
+          <form
+          action="https://formspree.io/f/xeeweroz"
+          method="POST"
+          >
           <div class="form-field">
             <label>Your Name</label>
             <input type="text" placeholder="Jane Smith, Esq." />
@@ -985,7 +989,6 @@
             Send Message
           </button>
           <p style="font-size:0.72rem; color:var(--muted); margin-top:0.75rem; text-align:center;">
-            ⚠️ Connect to <a href="https://formspree.io" target="_blank" style="color:var(--accent2);">Formspree</a> or <a href="https://docs.netlify.com/forms/setup/" target="_blank" style="color:var(--accent2);">Netlify Forms</a> to enable submissions.
           </p>
         </div>
 
